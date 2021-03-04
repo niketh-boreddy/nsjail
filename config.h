@@ -26,10 +26,12 @@
 
 #include "nsjail.h"
 
-namespace config {
+namespace config
+{
 
-bool parseFile(nsjconf_t* nsjconf, const char* file);
+  bool parseFile(nsjconf_t *nsjconf, const char *file);
 
-}  // namespace config
+} // namespace config
+// More comments
 
 #endif /*  NS_CONFIG_H */
